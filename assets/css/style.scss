@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}"; .column {
+@import "{{ site.theme }}"; 
+
+.column {
   float: left;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
