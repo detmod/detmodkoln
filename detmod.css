@@ -62,9 +62,12 @@ body {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  .header, .column.left, .column.right, .column.middle{
+  .column.left, .column.right, .column.middle{
     width: 100%;
   }
+  .header {
+        width: 90%;
+    }
 }
 
 
