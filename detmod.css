@@ -62,21 +62,12 @@ body {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  body{
-  .column.left, .column.right, .column.middle 
-    width: 100%;}
+  .header, .column.left, .column.right, .column.middle{
+    width: 100%;
   }
 }
 
-@media (min-width: 550px) {
-    #logo {
-        min-height: 159px;
-    }
-    #logo-div {
-        width: 500px;
-        margin-bottom: 2em;
-    }
-  }
+
 
 
 
