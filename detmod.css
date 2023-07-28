@@ -67,6 +67,12 @@ body {
   }
 }
 
+@media (min-width: 550px) {
+    #logo {
+        min-height: 159px;
+    }
+  }
+
 
 
 
