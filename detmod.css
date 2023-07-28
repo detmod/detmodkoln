@@ -71,6 +71,10 @@ body {
     #logo {
         min-height: 159px;
     }
+    #logo-div {
+        width: 500px;
+        margin-bottom: 2em;
+    }
   }
 
 
