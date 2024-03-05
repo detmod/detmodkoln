@@ -60,6 +60,49 @@ body {
   text-align: center;
 }
 
+/* Potential program schedule formatting
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+table.program {
+    border-collapse: collapse;
+    border: 2px solid white;
+    /* border-spacing: 2px; */
+    border-spacing: 0px 0px;
+    font-size: 14px;
+}
+
+table.program td {
+    padding: 5px 10px;
+    margin: 10px;
+    vertical-align: top;
+    border: 2px solid white;
+}
+
+td.time {
+    width: 20%;
+}
+
+
+td.authorsandtitle {
+    width: 80%;
+}
+
+tr.break {
+  background-color: #A7C7E7;
+}
+
+tr.talk {
+  background-color: #C1E1C1;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px){
   .column.left, .column.right, .column.middle{
